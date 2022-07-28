@@ -5,16 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ghuri Larning</title>
+    <!-- bootstrap CSS v: 5.2  -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Coustom CSS -->
+    <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="./images/ghuri.jpg" type="image/x-icon" />
-    <style>
-      .opacity{
-        filter: brightness(50%);
-      }
-      .height-sm{
-        min-height: 270px;
-      }
-    </style>
+    <!-- stylesheet for fontsawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <!-- container part start here -->
@@ -461,71 +458,67 @@
       </main>
     </div>
     <!-- container part ends here -->
-     <!-- footer setion start here -->
-     <footer>
+
+    <!-- footer setion start here -->
+    <footer class="bg-black mt-5">
       <section class="container">
-          <div class="footer-title">
-              <h1 style="font-family: 'Dela Gothic One', cursive;">Goal</h1>
-          </div>
-          <hr>
-          <!-- short link -->
-          <div class="footer-link">
-              <a href="">Contact Us</a>
-              <a href="">Terms of Service</a>
-              <a href="">Privacy Policy</a>
-              <a href="">Privacy Settings</a>
-              <a href="">Goal App</a>
-              <a href="">Goal Live</a>
+        <div class="col-12 h-100 text-white p-5 mt-3">
+          <div class=" text-center">
+            <h1 style="font-family: 'Dela Gothic One', cursive;">Ghuri Learning</h1>
+            <p class="m-1">Office : 13/5, Dr. Solimullah Road, Opposite of Solimullah Playground</p>
+            <p class="m-1">Mohammadpur, Dhaka</p>
+            <p>Privacy Policy | Terms of use</p>
           </div>
           <!-- social Icon for all device. -->
-          <div class="footer-social-icon">
-              <a href="https://www.facebook.com/ali.fbads"><i class="fa-brands fa-facebook"></i></a>
-              <a href="https://twitter.com/"> <i class="fa-brands fa-twitter"></i></a>
-              <a href="https://web.whatsapp.com/"> <i class="fa-brands fa-whatsapp"></i></a>
-              <a href="https://www.youtube.com/"> <i class="fa-brands fa-linkedin-in"></i></a>
-          </div>
-      </section>
-  </footer>
-    <!-- footer setion ends here -->
-
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Registration Modal Start Here -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Registration Form</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="mb-3">
-                <label for="exampleInputName1" class="form-label">Name</label>
-                <input type="email" class="form-control" id="exampleInputName1" placeholder="Enter Name" aria-describedby="emailHelp">
-              </div>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-              </div>
-              <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-              </div>
-              <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-              </div>
-              <div class="text-end">
-                <button type="reset" class="btn btn-warning">Reset</button>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </div>
-            </form>
+          <div class="text-center">
+            <a class=" p-2 icon-hover" href="https://www.facebook.com/ali.fbads"><i class="fa-brands fa-facebook"></i></a>
+            <a class=" p-2 icon-hover" href="https://twitter.com/"> <i class="fa-brands fa-twitter"></i></a>
+            <a class=" p-2 icon-hover" href="https://web.whatsapp.com/"> <i class="fa-brands fa-whatsapp"></i></a>
+            <a class=" p-2 icon-hover" href="https://www.youtube.com/"> <i class="fa-brands fa-linkedin-in"></i></a>
           </div>
         </div>
-      </div>
+      </section>
+    </footer>
+    <!-- footer setion ends here -->
+    
+    <!-- Registration Modal Start Here -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Registration Form</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputName1" class="form-label">Name</label>
+                  <input type="email" class="form-control" id="exampleInputName1" placeholder="Enter Name" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <div class="text-end">
+                  <button type="reset" class="btn btn-warning">Reset</button>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
     </div>
     <!-- Registration Modal ends Here -->
+
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
