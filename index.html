@@ -11,9 +11,13 @@
       .opacity{
         filter: brightness(50%);
       }
+      .height-sm{
+        min-height: 350px;
+      }
     </style>
   </head>
   <body>
+    <!-- container part start here -->
     <div class="container">
       <header>
         <section>
@@ -60,18 +64,28 @@
           <div id="carouselExampleInterval" class="mt-3 carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active  " data-bs-interval="10000">
-                <img src="./images/cover/cover-1.png" class="opacity rounded d-block w-100 " alt="...">
+                <img src="./images/cover/cover-1.png" class="opacity height-sm rounded d-block w-100 " alt="...">
                 <div class="carousel-caption px-lg-5 px-md-5 py-sm-5 d-flex flex-column justify-content-center align-items-center h-100 ">
                   <h1 style="font-size: 45px;">Get Started Digital Learning</h1>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, eius nostrum laborum consequatur ea quasi.</p>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur amet ratione, dolorum possimus nam eum magnam modi quis labore ipsam. Dicta nemo facere perferendis porro.</p>
                   <button class="btn btn-primary">Get Started</button>
                 </div>
               </div>
               <div class="carousel-item align-item-center" data-bs-interval="2000">
-                <img src="./images/cover/cover-4.jpg" class="rounded opacity d-block w-100" alt="...">
+                <img src="./images/cover/cover-4.jpg" class="opacity rounded height-sm d-block w-100" alt="...">
+                <div class="carousel-caption px-lg-5 px-md-5 py-sm-5 d-flex flex-column justify-content-center align-items-center h-100 ">
+                  <h1 style="font-size: 45px;">Get Started Digital Learning</h1>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur amet ratione, dolorum possimus nam eum magnam modi quis labore ipsam. Dicta nemo facere perferendis porro.</p>
+                  <button class="btn btn-primary">Get Started</button>
+                </div>
               </div>
               <div class="carousel-item align-item-center">
-                <img src="./images/cover/cover-3.jpg" class="rounded opacity d-block w-100" alt="...">
+                <img src="./images/cover/cover-3.jpg" class="rounded opacity height-sm d-block w-100" alt="...">
+                <div class="carousel-caption px-lg-5 px-md-5 py-sm-5 d-flex flex-column justify-content-center align-items-center h-100 ">
+                  <h1 style="font-size: 45px;">Get Started Digital Learning</h1>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur amet ratione, dolorum possimus nam eum magnam modi quis labore ipsam. Dicta nemo facere perferendis porro.</p>
+                  <button class="btn btn-primary">Get Started</button>
+                </div>
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -86,6 +100,7 @@
         </section>
 
         <section class="mt-5">
+          <!-- course list title and Description start herer -->
           <div class="row">
             <div class="col-12 text-center">
               <div class="w-50 mx-auto">
@@ -96,34 +111,240 @@
               </div>              
             </div>
           </div>
+          <!-- course list title and Description ends herer -->
+
           <div class="row">
-            <div class="col-6">
-              <div class="border rounded d-flex">
-                <div class="col-3">
-                  <img class="w-100 " src="./images/course/course-2.png" alt="">
-                </div>
-                <div class="col-9 d-flex justify-content-center align-item-center">
-                  <h4>Fundametal of UI/UX Design</h4>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci fuga deserunt sapiente officiis, aut magnam!</p>
-                  <h4 class="">Price: 25$</h4>
+            <!-- course list starts herer -->
+            <div class="col-12 col-lg-6">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/course/course-1.png" class="w-100 h-100 img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h3 class="card-title">Fundamental of UI/UX Desgin</h3>
+                      <p class="card-text">This is a wider card with supporting. This content is a little bit longer.</p>
+                      <h4 class="card-text"><strong class="text-muted">Price : </strong>20$</h4>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
+            <div class="col-12 col-lg-6">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/course/course-2.png" class="w-100 h-100 img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body align-items-center">
+                      <h3 class="card-title">Fundamental of UI/UX Desgin</h3>
+                      <p class="card-text">This is a wider card with supporting. This content is a little bit longer.</p>
+                      <h4 class="card-text"><strong class="text-muted">Price : </strong>20$</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/course/course-3.png" class="w-100 h-100 img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body align-items-center">
+                      <h3 class="card-title">Fundamental of UI/UX Desgin</h3>
+                      <p class="card-text">This is a wider card with supporting. This content is a little bit longer.</p>
+                      <h4 class="card-text"><strong class="text-muted">Price : </strong>20$</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/course/course-4.png" class="w-100 h-100 img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body align-items-center">
+                      <h3 class="card-title">Fundamental of UI/UX Desgin</h3>
+                      <p class="card-text">This is a wider card with supporting. This content is a little bit longer.</p>
+                      <h4 class="card-text"><strong class="text-muted">Price : </strong>20$</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/course/course-5.png" class="w-100 h-100 img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body align-items-center">
+                      <h3 class="card-title">Fundamental of UI/UX Desgin</h3>
+                      <p class="card-text">This is a wider card with supporting. This content is a little bit longer.</p>
+                      <h4 class="card-text"><strong class="text-muted">Price : </strong>20$</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/course/course-6.png" class="w-100 h-100 img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body align-items-center">
+                      <h3 class="card-title">Fundamental of UI/UX Desgin</h3>
+                      <p class="card-text">This is a wider card with supporting. This content is a little bit longer.</p>
+                      <h4 class="card-text"><strong class="text-muted">Price : </strong>20$</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- course list ends herer -->
 
-            <div class="col-6">
-              <div class="card">
+            
+            <!-- see more course button start herer -->
+            <div class="row mt-3">
+              <div class="col-12 text-center">
+                <div class="w-50 mx-auto">
+                  <button class="btn btn-primary btn-lg">see more course</button>
+                </div>          
+              </div>
+            </div>
+            <!-- see more course button ends herer -->
+          </div>
+        </section>
+
+        <!-- extra part for practice starts herer -->
+        <section>
+            <div class="row mt-5">
+              <div class="col-12 rounded-5 d-flex flex-lg-row flex-md-row flex-column">
+                <div class="col-12 col-lg-6 col-md-6">
+                  <img class=" w-100 h-100" src="./images/working.png" alt="">
+                </div>
+                <div class="col-12 col-lg-6 col-md-6 p-5 bg-light">
+                  <h2 class="fw-bold">Explore the elearning Institue</h2>
+                  <p class="fs-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus vero ullam facere inventore eos excepturi autem soluta, laudantium voluptatem asperiores molestias nesciunt totam quibusdam saepe...<a class="text-decoration-none fw-bold" href="#">See More</a></p>
+                  <div class="d-flex flex-wrap">
+                    <div class="onlie-course pe-3">
+                      <h1 class="fw-bold">3.2K+</h1>
+                      <p class="fw-bold text-muted">Online Course</p>
+                    </div>
+                    <div class="onlie-members pe-3">
+                      <h1 class="fw-bold">600+</h1>
+                      <p class="fw-bold text-muted">Expert member</p>
+                    </div>
+                    <div class="pe-3">
+                      <h1 class="fw-bold">1K+</h1>
+                      <p class="fw-bold text-muted">Rating & Review</p>
+                    </div>
+                  </div>
+                  <button class="fw-bold btn btn-primary btn-lg">Read More</button>
+                </div>
+              </div>
+            </div>
+        </section>
+        <!-- extra part for practice ends herer -->
+
+
+        <!-- extra part for Bonus mark starts herer -->
+        <section style="margin: 12px;" class="" >
+          <div class="row">
+            <div class="col-12 bg-primary bg-opacity-25 p-5 d-flex flex-column flex-lg-row align-items-center">
+              <div class="col-12 col-lg-6 ">
+                <div class="info text-center text-lg-start">
+                  <h1>Ready to join</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum perferendis cumque earum totam eveniet necessitatibus?</p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6 text-center text-lg-end">
+                <button class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button>
               </div>
             </div>
           </div>
         </section>
+        <!-- extra part for Bonus mark starts herer -->
+
       </main>
 
-      <footer>
-        <section>
-          ffasf
-        </section>
-      </footer>
+    <!-- footer setion start here -->
+    <footer>
+      <section>
+          <div class="footer-title">
+              <h1 style="font-family: 'Dela Gothic One', cursive;">Goal</h1>
+          </div>
+          <hr>
+          <!-- short link -->
+          <div class="footer-link">
+              <a href="">Contact Us</a>
+              <a href="">Terms of Service</a>
+              <a href="">Privacy Policy</a>
+              <a href="">Privacy Settings</a>
+              <a href="">Goal App</a>
+              <a href="">Goal Live</a>
+          </div>
+          <!-- social Icon for all device. -->
+          <div class="footer-social-icon">
+              <a href="https://www.facebook.com/ali.fbads"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://twitter.com/"> <i class="fa-brands fa-twitter"></i></a>
+              <a href="https://web.whatsapp.com/"> <i class="fa-brands fa-whatsapp"></i></a>
+              <a href="https://www.youtube.com/"> <i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+      </section>
+  </footer>
+  <!-- footer setion ends here -->
     </div>
+    <!-- container part ends here -->
+
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Registration Modal Start Here -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Registration Form</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputName1" class="form-label">Name</label>
+                <input type="email" class="form-control" id="exampleInputName1" placeholder="Enter Name" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <div class="text-end">
+                <button type="reset" class="btn btn-warning">Reset</button>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Registration Modal ends Here -->
   </body>
 </html>
